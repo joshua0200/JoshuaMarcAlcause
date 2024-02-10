@@ -535,8 +535,7 @@
           </div>
           
 
-
-          <?php
+          <!-- <?php
               use PHPMailer\PHPMailer\PHPMailer;
               $msg = '';
               if (array_key_exists('email', $_POST)) {
@@ -568,7 +567,7 @@
                       $msg = 'Share it with us!';
                   }
               }
-              ?>
+              ?> -->
 
           <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form  method="post" role="form" class="php-email-form">
@@ -596,7 +595,7 @@
           </div> -->
 
           <div class="col-lg-7 mt-1 mt-lg-0 d-flex flex-column align-items-stretch">
-          <form  method="post" role="form" >
+          <form action="emailProcess.php" method="post" role="form" >
               <div class="row">
                 <div class="col-md-6 form-group">
 
